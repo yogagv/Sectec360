@@ -107,37 +107,37 @@ const Home = () => {
             <h3>Services we provide</h3>
             <div className="row">
             <div className="col-md-3 xs-4 mt-5 mx-auto d-grid justify-content-around cardsol" >
-                    <img src={itservices} alt="logo" id='myimg' className='d-flex justify-content-center'/>
+                    <img src={itservices} alt="logo" id='myimg' className='d-flex justify-content-center hover-zoom'/>
                     <h4 className='mt-3 text-center'>IT Services</h4>
                     <button className='btn btn-warning mt-3'>know more</button>
                 </div>
                 <div className="col-md-3 xs-4 mt-5 d-grid mx-auto justify-content-around cardsol" >
-                <img src={sercyber} alt="logo" id='myimg' className='d-flex justify-content-center'/>
+                <img src={sercyber} alt="logo" id='myimg' className='d-flex justify-content-center hover-zoom'/>
                 <h4 className='mt-3 text-center'>Cyber Security</h4>
                 <button className='btn btn-warning mt-3'>know more</button>
                 </div>
                 <div className="col-md-3 xs-4 mt-5 mx-auto d-grid justify-content-around cardsol" >
-                <img src={secfirewall} alt="logo" id='myimg' className='d-flex justify-content-center'/>
+                <img src={secfirewall} alt="logo" id='myimg' className='d-flex justify-content-center hover-zoom'/>
                 <h4 className='mt-3 text-center'>Firewall Services</h4>
                 <button className='btn btn-warning mt-3'>know more</button>
                 </div>
                 <div className="col-md-3 xs-4 mx-auto mt-5 d-grid justify-content-around cardsol" >
-                <img src={swd} alt="logo" id='myimg' className='d-flex justify-content-center'/>
+                <img src={swd} alt="logo" id='myimg' className='d-flex justify-content-center hover-zoom'/>
                 <h4 className='mt-3 text-center'>Software Development</h4>
                 <button className='btn btn-warning mt-3'>know more</button>
                 </div>
                 <div className="col-md-3 xs-4 mt-5 mx-auto d-grid justify-content-around  cardsol" >
-                <img src={webdev} alt="logo" id='myimg' className='d-flex justify-content-center'/>
+                <img src={webdev} alt="logo" id='myimg' className='d-flex justify-content-center hover-zoom'/>
                 <h4 className='mt-3 text-center'>Web Development</h4>
                 <button className='btn btn-warning mt-3'>know more</button>
                 </div>
                 <div className="col-md-3 xs-4 mt-5 mx-auto d-grid justify-content-around cardsol" >
-                <img src={thunt} alt="logo" id='myimg' className='d-flex justify-content-center'/>
+                <img src={thunt} alt="logo" id='myimg' className='d-flex justify-content-center hover-zoom'/>
                 <h4 className='mt-3 text-center'>Threat hunting</h4>
                 <button className='btn btn-warning mt-3'>know more</button>
                 </div>
                 <div className="col-md-3 xs-4 mt-5 mx-auto d-grid justify-content-around cardsol" >
-                <img src={incays} alt="logo" id='myimg' className='d-flex justify-content-center'/>
+                <img src={incays} alt="logo" id='myimg' className='d-flex justify-content-center hover-zoom'/>
                 <h4 className='mt-3 text-center'>Incident Analysis</h4>
                 <button className='btn btn-warning mt-3'>know more</button>
                 </div>
