@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="bd-footer py-5 mt-5 bg-light">
       <div className="container py-5">
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-md-3 xs-4">
               <img src={logo} alt="logo" />
               <ul className='list-unstyled small text-muted'>
                 <li><h3>Sectec 360</h3></li>
@@ -21,7 +21,7 @@ const Footer = () => {
                 <li>And Finally, We Fix You!</li>
               </ul>
             </div>
-            <div className="col-md-3 services">
+            <div className="col-md-3 xs-4 services">
               <h5 className='mt-5 fw-bold'>Services</h5>
               <ul className='list-unstyled small text-muted'>
                 <li>IT Services</li>
@@ -35,7 +35,7 @@ const Footer = () => {
                 <li>Penetration Testing</li>
               </ul>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 xs-4">
               <h5 className='mt-5 fw-bold'>Solutions</h5>
               <ul className='list-unstyled small text-muted'>
                 <li>Cyber Security 
@@ -51,7 +51,7 @@ const Footer = () => {
                 <li>Manufacturing</li>
               </ul>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 xs-4">
             <h5 className='mt-5 fw-bold'>You Reach, We Fix!</h5>
               <ul className='list-unstyled small text-muted'>
                 <li className='mt-1'><MdEmail />    info@sectec360.com</li>

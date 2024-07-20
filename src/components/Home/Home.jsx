@@ -72,7 +72,7 @@ const Home = () => {
         <div className='d-flex'>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 xs-4">
                         <h3 className='text-left'><span className='sect'>    Sectec360   </span> <span className='icon'> <FaShieldAlt /></span><br/> 
                         enhance & safeguard your business <br/> with comprehensive <span>IT  Solutions!</span></h3>
                         <p className='mt-3'>
@@ -106,42 +106,42 @@ const Home = () => {
         <div className="container mt-5">
             <h3>Services we provide</h3>
             <div className="row">
-            <div className="col-md-3 mt-5 mx-auto d-grid justify-content-around cardsol" >
+            <div className="col-md-3 xs-4 mt-5 mx-auto d-grid justify-content-around cardsol" >
                     <img src={itservices} alt="logo" id='myimg' className='d-flex justify-content-center'/>
                     <h4 className='mt-3 text-center'>IT Services</h4>
                     <button className='btn btn-warning mt-3'>know more</button>
                 </div>
-                <div className="col-md-3 mt-5 d-grid mx-auto justify-content-around cardsol" >
+                <div className="col-md-3 xs-4 mt-5 d-grid mx-auto justify-content-around cardsol" >
                 <img src={sercyber} alt="logo" id='myimg' className='d-flex justify-content-center'/>
                 <h4 className='mt-3 text-center'>Cyber Security</h4>
                 <button className='btn btn-warning mt-3'>know more</button>
                 </div>
-                <div className="col-md-3 mt-5 mx-auto d-grid justify-content-around cardsol" >
+                <div className="col-md-3 xs-4 mt-5 mx-auto d-grid justify-content-around cardsol" >
                 <img src={secfirewall} alt="logo" id='myimg' className='d-flex justify-content-center'/>
                 <h4 className='mt-3 text-center'>Firewall Services</h4>
                 <button className='btn btn-warning mt-3'>know more</button>
                 </div>
-                <div className="col-md-3 mx-auto mt-5 d-grid justify-content-around cardsol" >
+                <div className="col-md-3 xs-4 mx-auto mt-5 d-grid justify-content-around cardsol" >
                 <img src={swd} alt="logo" id='myimg' className='d-flex justify-content-center'/>
                 <h4 className='mt-3 text-center'>Software Development</h4>
                 <button className='btn btn-warning mt-3'>know more</button>
                 </div>
-                <div className="col-md-3 mt-5 mx-auto d-grid justify-content-around  cardsol" >
+                <div className="col-md-3 xs-4 mt-5 mx-auto d-grid justify-content-around  cardsol" >
                 <img src={webdev} alt="logo" id='myimg' className='d-flex justify-content-center'/>
                 <h4 className='mt-3 text-center'>Web Development</h4>
                 <button className='btn btn-warning mt-3'>know more</button>
                 </div>
-                <div className="col-md-3 mt-5 mx-auto d-grid justify-content-around cardsol" >
+                <div className="col-md-3 xs-4 mt-5 mx-auto d-grid justify-content-around cardsol" >
                 <img src={thunt} alt="logo" id='myimg' className='d-flex justify-content-center'/>
                 <h4 className='mt-3 text-center'>Threat hunting</h4>
                 <button className='btn btn-warning mt-3'>know more</button>
                 </div>
-                <div className="col-md-3 mt-5 mx-auto d-grid justify-content-around cardsol" >
+                <div className="col-md-3 xs-4 mt-5 mx-auto d-grid justify-content-around cardsol" >
                 <img src={incays} alt="logo" id='myimg' className='d-flex justify-content-center'/>
                 <h4 className='mt-3 text-center'>Incident Analysis</h4>
                 <button className='btn btn-warning mt-3'>know more</button>
                 </div>
-                <div className="col-md-3 mt-5 mx-auto d-grid justify-content-around cardsol" >
+                <div className="col-md-3 xs-4 mt-5 mx-auto d-grid justify-content-around cardsol" >
                 <img src={serpenetrate} alt="logo" id='myimg' className='d-flex justify-content-center'/>
                 <h4 className='mt-3 text-center'>Peneration Testing</h4>
                 <button className='btn btn-warning mt-3'>know more</button>
@@ -155,7 +155,7 @@ const Home = () => {
         <h3 className='mt-5'>Solutions</h3>
         <div className="container mt-5">
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-md-3 xs-4">
         <Card style={{ width: '18rem', height: '22rem' }}>
       <Card.Img variant="top" width={127} height={286} src= {cybersol} />
       <Card.Body>
@@ -167,7 +167,7 @@ const Home = () => {
       </Card.Body>
     </Card>
     </div>
-    <div className="col-md-3">
+    <div className="col-md-3 xs-4">
         <Card style={{ width: '18rem', height: '22rem' }}>
       <Card.Img variant="top" width={127} height={286} src= {crm} />
       <Card.Body>
@@ -179,7 +179,7 @@ const Home = () => {
       </Card.Body>
     </Card>
     </div>
-    <div className="col-md-3">
+    <div className="col-md-3 xs-4">
         <Card style={{ width: '18rem', height: '22rem' }}>
       <Card.Img variant="top" width={127} height={286} src= {digital} />
       <Card.Body>
@@ -192,7 +192,7 @@ const Home = () => {
       </Card.Body>
     </Card>
     </div>
-    <div className="col-md-3">
+    <div className="col-md-3 xs-4">
         <Card style={{ width: '18rem', height: '22rem' }}>
       <Card.Img variant="top" width={127} height={286} src= {itsolution} />
       <Card.Body>
@@ -230,7 +230,7 @@ const Home = () => {
     <div class="carousel-item active">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 xs-4">
             <img class="rounded-circle shadow-1-strong mb-4"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" alt="avatar"
               style={{width: 150}} />
@@ -250,7 +250,7 @@ const Home = () => {
             </ul>
           </div>
 
-          <div class="col-lg-4 d-none d-lg-block">
+          <div class="col-lg-4 xs-4 d-none d-lg-block">
             <img class="rounded-circle shadow-1-strong mb-4"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
               style={{width: 150}} />
@@ -273,7 +273,7 @@ const Home = () => {
             </ul>
           </div>
 
-          <div class="col-lg-4 d-none d-lg-block">
+          <div class="col-lg-4 xs-4 d-none d-lg-block">
             <img class="rounded-circle shadow-1-strong mb-4"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
               style={{width: 150}} />
@@ -302,7 +302,7 @@ const Home = () => {
     <div class="carousel-item">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 ">
+          <div class="col-lg-4 xs-4">
             <img class="rounded-circle shadow-1-strong mb-4"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp" alt="avatar"
               style={{width: 150}} />
@@ -322,7 +322,7 @@ const Home = () => {
             </ul>
           </div>
 
-          <div class="col-lg-4 d-none d-lg-block">
+          <div class="col-lg-4 xs-4 d-none d-lg-block">
             <img class="rounded-circle shadow-1-strong mb-4"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp" alt="avatar"
               style={{width: 150}}/>
@@ -344,7 +344,7 @@ const Home = () => {
             </ul>
           </div>
 
-          <div class="col-lg-4 d-none d-lg-block">
+          <div class="col-lg-4 xs-4 d-none d-lg-block">
             <img class="rounded-circle shadow-1-strong mb-4"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp" alt="avatar"
               style={{width: 150}} />
@@ -371,7 +371,7 @@ const Home = () => {
     <div class="carousel-item">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 xs-4">
             <img class="rounded-circle shadow-1-strong mb-4"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(6).webp" alt="avatar"
               style={{width: 150}} />
@@ -391,7 +391,7 @@ const Home = () => {
             </ul>
           </div>
 
-          <div class="col-lg-4 d-none d-lg-block">
+          <div class="col-lg-4 xs-4 d-none d-lg-block">
             <img class="rounded-circle shadow-1-strong mb-4"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(8).webp" alt="avatar"
               style={{width: 150}} />
@@ -413,7 +413,7 @@ const Home = () => {
             </ul>
           </div>
 
-          <div class="col-lg-4 d-none d-lg-block">
+          <div class="col-lg-4 xs-4 d-none d-lg-block">
             <img class="rounded-circle shadow-1-strong mb-4"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp" alt="avatar"
               style={{width: 150}} />
