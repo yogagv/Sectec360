@@ -45,17 +45,17 @@ const Header = () => {
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Solutions" id="collapsible-nav-dropdown fw-normal">
-              <NavDropdown.Item as={Link} to="/solutions1">Solution1
+              <NavDropdown.Item as={Link} to="/cybersecurity">CyberSecurity
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/solution2">
-                Solution2
+              <NavDropdown.Item as={Link} to="/crmmanagement">
+                CRM Management
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/solution3">Solution3</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/digital transformation">Digital Transformation</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/solution4">
-                Solution4
+              <NavDropdown.Item as={Link} to="/itsolution">
+                IT Solution
               </NavDropdown.Item>
             </NavDropdown>
                 <Nav.Link as={Link} to="/testimonials">
