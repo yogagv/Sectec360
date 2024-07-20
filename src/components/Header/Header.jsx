@@ -10,18 +10,18 @@ const Header = () => {
   return (
     <div>
         
-        <div className='seclayout text-center fixed-top xs-4'> 
+        <div className='seclayout text-center fixed-top sm-2'> 
             <p> <span> <BiSolidOffer /> </span>
               Upto 75% Offer for Cybersecurity Solutions!</p>
               </div>
               <hr/>
 
-              <Navbar expand="lg xs" className="bg-body-tertiary xs-4 ">
+              <Navbar expand="lg sm" className="bg-body-tertiary sm-2 ">
           <Container>
             <Navbar.Brand>
                 <img src={logo} alt="logo" className='w-50 h-30 img'/>
                 </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav xs-4 "/>
+            <Navbar.Toggle aria-controls="basic-navbar-nav sm-2 "/>
             <Navbar.Collapse id="basic-navbar-nav ">
               <Nav className="me-auto fw-bold">
                 <Nav.Link as={Link} to="/">
