@@ -22,7 +22,7 @@ const Header = () => {
                 <img src={logo} alt="logo" className='w-50 h-30 img'/>
                 </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav navbar-left xs-4"/>
-            <Navbar.Collapse id="basic-navbar-nav">
+            <Navbar.Collapse id="basic-navbar-nav navbar-left">
               <Nav className="me-auto fw-bold">
                 <Nav.Link as={Link} to="/">
                 Home
