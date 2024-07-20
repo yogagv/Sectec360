@@ -16,7 +16,7 @@ const Header = () => {
               </div>
               <hr/>
 
-              <Navbar expand="lg" className="bg-body-tertiary xs-4">
+              <Navbar expand="lg" className="bg-body-tertiary xs-4 navbar-left">
           <Container>
             <Navbar.Brand>
                 <img src={logo} alt="logo" className='w-50 h-30 img'/>
