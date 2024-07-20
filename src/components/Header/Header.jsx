@@ -19,7 +19,7 @@ const Header = () => {
               <Navbar expand="lg xs" className="bg-body-tertiary xs-4 ">
           <Container>
             <Navbar.Brand>
-                <img src={logo} alt="logo" className='w-50 h-30 img'/>
+                <img src={logo} alt="logo" className='w-50 h-30 img hover-zoom'/>
                 </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav xs-4"/>
             <Navbar.Collapse id="basic-navbar-nav ">
