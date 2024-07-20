@@ -1,0 +1,32 @@
+.seclayout {
+
+    background-color: #BD1E7C;
+}
+
+.seclayout p {
+
+    color: whitesmoke;
+    font-weight: 500;
+    bottom: 0;
+    margin-top: 10px;
+    animation: animate 8s linear infinite; 
+}
+
+@keyframes animate{ 
+    0%{ 
+      opacity: 0; 
+    } 
+    50%{ 
+      opacity: 80; 
+    } 
+    100%{ 
+      opacity: 100; 
+    } 
+  } 
+
+.me-auto {
+
+    padding-left: 310px;
+}  
+
+

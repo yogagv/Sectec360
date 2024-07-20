@@ -1,0 +1,101 @@
+#c-img {
+
+    height: 550px;
+}
+
+.btn {
+
+    background-color: #BD1E7C;
+    color: whitesmoke;
+    border: 1px solid #BD1E7C;
+    margin-bottom: 50px;
+    
+}
+
+h1 {
+
+    color: whitesmoke;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.sect {
+
+    background-color: #BD1E7C;
+    color: whitesmoke;
+    border: 1px solid #BD1E7C;
+    border-radius: 30px;
+    padding: 2px;
+
+}
+
+.en {
+
+    margin-top: 10px;
+}
+
+.icon {
+
+    color: #BD1E7C;
+    margin-left: 10px;
+}
+
+.text-left {
+
+    margin-top: 90px;
+}
+
+span {
+
+    color: #BD1E7C;
+}
+
+#a-img {
+
+    width: 399px;
+    height: 494px;
+    margin-top: 70px;
+    border-top: 10px solid #F8F9FA;
+    border-left: 10cm;
+    border-left: 10px solid #F8F9FA;
+    box-shadow: 0 0 3px rgb(0, 0, 0, 0.1)
+}
+
+#b-img {
+
+    width: 349px;
+    height: 494px;
+    margin-top: 110px;
+    margin-right: 40px;
+    
+}
+
+.cardsol {
+
+    border: none;
+    width: 300px;
+    height: 330px;
+    border-radius: 10px;
+    border: 1px solid #BD1E7C;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+   
+}
+
+.solcard{
+
+    background-color: whitesmoke;
+}
+
+.solutions h3 {
+
+    margin-left: 110px;
+} 
+
+#myimg {
+
+    width: 256px;
+    height: 158px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
